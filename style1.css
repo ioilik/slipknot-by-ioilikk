@@ -1,0 +1,670 @@
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #C6022F;
+}
+:root {
+    --main-red: #C6022F;
+    --main-grey: #363636;
+
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon-1 {
+    margin-left: 32px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+.header-main-div {
+    width: 1400px;
+    height: 100px;
+    background-color: #FFF;
+    border: 3px solid var(--main-red) ;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header-lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 1057px;
+    margin-left: 80px;
+    margin-right: 100px;
+}
+.header-first-list-item {
+    color: var(--main-red);
+    font-family: Metal Mania;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 25px;
+    row-gap: 32px;
+
+
+
+}
+.header-first-list {
+    height: 25px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 38px;
+    margin-top: 38px;
+}
+.header-second-list {
+    display: flex;
+    height: 36px;
+    width: 188px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0;
+
+}
+.header-second-item-list-item {
+    height: 36px;
+    width: 36px;
+}
+.hero-section-bckg{
+    height: 620px;
+    width: 1400px;
+    background-image: linear-gradient(96deg, rgba(0,0,0),rgba(0,0,0,0.6)) , url(./imgs/backgrounds/bckgrnd-1.jpg);
+    padding-left: 120px;
+    padding-top: 267px;
+
+}
+.heading-s-1{
+    height: 95px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-pg-header{
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.first-sctn-p {
+    width: 646px;
+height: 137px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Metal Mania;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 20px;
+}
+.hfli {
+    &:hover,
+    &:focus
+ {
+    color: #363636;
+    transition: ease-in 50ms;
+}
+}
+.app-icon {
+    fill: #C6022F;
+   
+}
+.app-icon {
+    &:hover,
+    &:focus{
+        fill: #363636;
+    }
+}
+
+.second-section {
+    background-image: linear-gradient(262deg, rgba(0, 0, 0, 0.75) 7.33%, rgba(0, 0, 0, 0.08) 94.79%), url(./imgs/backgrounds/sid-wilson.jpg);
+    width: 1400px;
+    height: 720px;
+    padding-top: 36px;
+}
+.scnd-div {
+    display: flex;
+
+}
+.number-zero {
+    margin-left: 120px;
+    text-align: center;
+
+}
+.zero-header {
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 400px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke:5px #C6022F;
+margin-top: 0;
+margin-bottom: 0;
+height: 400px;
+}
+.zero-name {
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke:3px #C6022F;
+width: 244px;
+height: 79.742px;
+flex-shrink: 0;
+margin-top: 0;
+}
+.zero-description{
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 730px;
+height: 438px;
+flex-shrink: 0;
+margin-top: 126px;
+margin-left: 217px;
+}
+.slipknot-w-logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+.w-logo {
+    height: 75px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Joey Styles */
+.one-description{
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 730px;
+height: 438px;
+flex-shrink: 0;
+margin-left: 120px;
+margin-top: 120px;
+}
+.one-name {
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke:3px #C6022F;
+width: 324px;
+height: 80px;
+flex-shrink: 0;
+flex-shrink: 0;
+margin-top: 0;
+}
+.one-header {
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 400px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke:5px #C6022F;
+margin-top: 0;
+margin-bottom: 0;
+height: 400px;}
+.third-section {
+    background-image: linear-gradient(88deg, rgba(0, 0, 0, 0.46) 31.89%, rgba(9, 5, 5, 0.21) 86.1%), url(./imgs/backgrounds/joey-jordison.jpg);
+    width: 1400px;
+    height: 720px;
+    padding-top: 36px;
+}
+.thrd-div{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.number-one {
+    margin-right: 120px;
+    text-align: center;
+}
+/* Paul styles */
+.two-description{
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 730px;
+height: 438px;
+flex-shrink: 0;
+margin-right: 120px;
+margin-top: 120px;
+}
+.two-name {
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke:3px #C6022F;
+width: 324px;
+height: 80px;
+flex-shrink: 0;
+flex-shrink: 0;
+margin-top: 0;
+}
+.two-header {
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 400px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke:5px #C6022F;
+margin-top: 0;
+margin-bottom: 0;
+height: 400px;}
+.frth-section {
+    background-image: linear-gradient(282deg, rgba(1, 1, 1, 0.96) 20.11%, rgba(0, 0, 0, 0.00) 95.48%), url(./imgs/backgrounds/paul-gray.jpg);
+    width: 1400px;
+    height: 720px;
+    padding-top: 36px;
+}
+.frth-div{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.number-two {
+    margin-left: 120px;
+    text-align: center;
+}
+/* Chris Styles */
+.three-description{
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 730px;
+height: 438px;
+flex-shrink: 0;
+margin-left: 120px;
+margin-top: 120px;
+}
+.three-name {
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke:3px #C6022F;
+width: 324px;
+height: 80px;
+flex-shrink: 0;
+flex-shrink: 0;
+margin-top: 0;
+}
+.three-header {
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 400px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke:5px #C6022F;
+margin-top: 0;
+margin-bottom: 0;
+height: 400px;}
+.fivth-section {
+    background-image: linear-gradient(83deg, rgba(0, 0, 0, 0.74) 10.97%, rgba(0, 0, 0, 0.29) 99.22%), url(./imgs/backgrounds/chris-fehn.jpg);
+    width: 1400px;
+    height: 720px;
+    padding-top: 36px;
+}
+.fivth-div{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.number-three {
+    margin-right: 120px;
+    text-align: center;
+}
+/* James Styles */
+.four-description{
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 730px;
+height: 438px;
+flex-shrink: 0;
+margin-right: 120px;
+margin-top: 120px;
+}
+.four-name {
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke:3px #C6022F;
+width: 324px;
+height: 80px;
+flex-shrink: 0;
+flex-shrink: 0;
+margin-top: 0;
+margin-top: 30px;
+}
+.four-header {
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 400px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke:5px #C6022F;
+margin-top: 0;
+margin-bottom: 0;
+height: 400px;}
+.sixth-section {
+    background-image: linear-gradient(282deg, rgba(1, 1, 1, 0.96) 20.11%, rgba(0, 0, 0, 0.00) 95.48%), url(./imgs/backgrounds/james-root.jpg);
+    width: 1400px;
+    height: 720px;
+    padding-top: 36px;
+}
+.sixth-div{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.number-four {
+    margin-left: 120px;
+    text-align: center;
+}
+/* Craig Styles */
+.five-description{
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 730px;
+height: 438px;
+flex-shrink: 0;
+margin-left: 120px;
+margin-top: 120px;
+}
+.five-name {
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke:3px #C6022F;
+width: 324px;
+height: 80px;
+flex-shrink: 0;
+flex-shrink: 0;
+margin-top: 0;
+}
+.five-header {
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 400px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke:5px #C6022F;
+margin-top: 0;
+margin-bottom: 0;
+height: 400px;}
+.seventh-section {
+    background-image: linear-gradient(83deg, rgba(0, 0, 0, 0.74) 10.97%, rgba(0, 0, 0, 0.29) 99.22%), url(./imgs/backgrounds/craig-jones.jpg);
+    width: 1400px;
+    height: 720px;
+    padding-top: 36px;
+}
+.seventh-div{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.number-five {
+    margin-right: 120px;
+    text-align: center;
+}
+/* Shawn Styles */
+.six-description{
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 730px;
+height: 438px;
+flex-shrink: 0;
+margin-right: 120px;
+margin-top: 120px;
+}
+.six-name {
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke:3px #C6022F;
+width: 364px;
+height: 80px;
+flex-shrink: 0;
+flex-shrink: 0;
+flex-shrink: 0;
+margin-top: 0;
+}
+.six-header {
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 400px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke:5px #C6022F;
+margin-top: 0;
+margin-bottom: 0;
+height: 400px;}
+.eighth-section {
+    background-image: linear-gradient(282deg, rgba(1, 1, 1, 0.96) 20.11%, rgba(0, 0, 0, 0.00) 95.48%), url(./imgs/backgrounds/shawn-crahan.jpg);
+    width: 1400px;
+    height: 720px;
+    padding-top: 36px;
+}
+.eighth-div{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.number-six {
+    margin-left: 120px;
+    text-align: center;
+}
+/* Mick Styles */
+.seven-description{
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 730px;
+height: 438px;
+flex-shrink: 0;
+margin-left: 120px;
+margin-top: 120px;
+}
+.seven-name {
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke:3px #C6022F;
+width: 349px;
+height: 80px;
+flex-shrink: 0;
+margin-top: 0;
+}
+.seven-header {
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 400px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke:5px #C6022F;
+margin-top: 0;
+margin-bottom: 0;
+height: 400px;}
+.nineth-section {
+    background-image: linear-gradient(83deg, rgba(0, 0, 0, 0.74) 10.97%, rgba(0, 0, 0, 0.29) 99.22%), url(./imgs/backgrounds/mick-thompson.png);
+    width: 1400px;
+    height: 720px;
+    padding-top: 36px;
+}
+.nineth-div{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.number-seven {
+    margin-right: 120px;
+    text-align: center;
+}
+/* corey styles*/
+.eight-description{
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 730px;
+height: 438px;
+flex-shrink: 0;
+margin-right: 120px;
+margin-top: 120px;
+}
+.eight-name {
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke:3px #C6022F;
+width: 364px;
+height: 80px;
+flex-shrink: 0;
+flex-shrink: 0;
+flex-shrink: 0;
+margin-top: 0;
+}
+.eight-header {
+    color: #FFF;
+font-family: Metal Mania;
+font-size: 400px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke:5px #C6022F;
+margin-top: 0;
+margin-bottom: 0;
+height: 400px;}
+.tenth-section {
+    background-image: linear-gradient(282deg, rgba(1, 1, 1, 0.96) 20.11%, rgba(0, 0, 0, 0.00) 95.48%), url(./imgs/backgrounds/corey-taylor.jpg);
+    width: 1400px;
+    height: 720px;
+    padding-top: 36px;
+}
+.tenth-div{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.number-eight {
+    margin-left: 120px;
+    text-align: center;
+}
+/* FOOTER STYLE */
+.footer {
+    width: 1400px;
+    height: 100px;
+    padding-left: 40px;
+    padding-top: 32px;
+    padding-bottom:36px;
+    fill: #FFF;
+    stroke-width: 5px;
+    border: 3px solid var(--main-red);
+}
+.author {
+width: 206px;
+height: 28px;
+flex-shrink: 0;
+color: #C6022F;
+font-family: Metal Mania;
+font-size: 27px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.footer-div {
+    width: 216px;
+    height:36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.telegram {
+    stroke: none;
+    
+}
