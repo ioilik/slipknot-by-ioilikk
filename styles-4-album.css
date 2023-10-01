@@ -1,0 +1,354 @@
+ul {
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #C6022F;
+}
+:root {
+    --main-red: #C6022F;
+    --main-grey: #363636;
+
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+/* HEADER */
+.icon-1 {
+    margin-left: 32px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+.header-main-div {
+    width: 1400px;
+    height: 100px;
+    background-color: #FFF;
+    border: 3px solid var(--main-red) ;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header-lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 1057px;
+    margin-left: 80px;
+    margin-right: 100px;
+}
+.header-first-list-item {
+    color: var(--main-red);
+    font-family: Metal Mania;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 25px;
+    row-gap: 32px;
+
+
+
+    font-family: Metal Mania;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 25px;
+    row-gap: 32px;
+
+
+
+}
+.header-first-list {
+    height: 25px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 38px;
+    margin-top: 38px;
+}
+.header-second-list {
+    display: flex;
+    height: 36px;
+    width: 188px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0;
+
+}
+.header-second-item-list-item {
+    height: 36px;
+    width: 36px;
+}
+.app-icon {
+    fill: #C6022F;
+}
+.app-icon {
+    &:hover,
+    &:focus {
+        fill: var(--main-grey);
+    }
+}
+.hfli {
+    &:hover,
+    &:focus
+ {
+    color: #363636;
+    transition: ease-in 50ms;
+}
+}
+.opened-page{
+    color: var(--main-grey);
+    font-family: Metal Mania;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 25px;
+    row-gap: 32px;
+}
+.w-logo{
+    width: 100%;
+    text-align: center;
+}
+.main-button {
+    width: 370px;
+height: 109px;
+flex-shrink: 0;
+background-color: #C6022F;
+border: 5px solid #FFF;
+border-radius: 34px;
+padding-left: 93px;
+padding-right: 93px;
+padding-top: 30px;
+padding-bottom: 30px;
+color: #FFF;
+font-family: Metal Mania;
+font-size: 45px;
+font-weight: 400;
+margin-top: 36px;
+
+}
+.main-button {
+    &:hover,
+    &:focus 
+    {
+    background-color: #363636;
+    transition-delay: 500ms;
+    transition: ease-in ;
+    }
+}
+/* HERo-SECTIoN */
+.first-album-section {
+    width: 1400px;
+    height: 720px;
+    margin-top: 0;
+    background-image: linear-gradient(88deg, #000 12.78%, rgba(0, 0, 0, 0.25) 96.92%), url(/imgs-2/bckgrnds/1-sctn.png);
+    padding-top: 40px;
+    padding-left: 116PX;
+    padding-right: 143px;
+}
+.first-main-div {
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    margin-top:32px ;
+    padding-top: 20px;
+}
+.first-album-name {
+    margin-right: 32px;
+    text-align: center;
+}
+.first-name {
+    color: #FFF;
+    width: 370px;
+height: 85px;
+font-family: Metal Mania;
+font-size: 92px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke: 3px #C6022F;
+}
+/* SECoND SECTIoN */
+.second-album-section {
+    width: 1400px;
+    height: 720px;
+    margin-top: 0;
+    background-image: linear-gradient(265deg, rgba(0, 0, 0, 0.88) 3.11%, rgba(0, 0, 0, 0.58) 95.7%), url(/imgs-2/bckgrnds/2-sctn.jpg);
+    padding-top: 40px;
+    padding-left: 116PX;
+    padding-right: 112px;
+}
+.second-main-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin-top:32px ;
+    padding-top: 20px;
+}
+.second-album-name {
+    text-align: center;
+}
+.second-name {
+    color: #FFF;
+    width: 370px;
+height: 85px;
+font-family: Metal Mania;
+font-size: 92px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+-webkit-text-stroke: 3px #C6022F;
+}
+.second-album-icon {
+    padding-top: 20px;
+}
+/* THIRD SECTIoN */
+    .third-album-section{
+        width: 1400px;
+        height: 720px;
+        margin-top: 0;
+        background-image: linear-gradient(88deg, #000 12.78%, rgba(0, 0, 0, 0.25) 96.92%), url(/imgs-2/bckgrnds/3-sctn.png);
+        padding-top: 40px;
+        padding-left: 116PX;
+        padding-right: 143px;
+
+    }
+    .third-name{
+        color: #FFF;
+        width: 500px;
+        height: 339px;
+        font-family: Metal Mania;
+        font-size: 92px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        -webkit-text-stroke: 3px #C6022F;
+        text-align: center;
+
+    }
+    .third-album-name {
+        width: 500px;
+        text-align: center;
+        margin-right: 20px;
+    }
+    /* FoURTH SECTIoN */
+    .fourth-album-section {
+        width: 1400px;
+        height: 720px;
+        margin-top: 0;
+        background-image: linear-gradient(265deg, rgba(0, 0, 0, 0.88) 3.11%, rgba(0, 0, 0, 0.58) 95.7%), url(/imgs-2/bckgrnds/4-sctn.jpg);
+        padding-top: 40px;
+        padding-left: 116PX;
+        padding-right: 112px;
+    }
+    .fourth-name {
+        color: #FFF;
+        text-align: center;
+        font-family: Metal Mania;
+        font-size: 92px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 462px;
+        height: 206px;
+        flex-shrink: 0; 
+        text-align: center;
+        -webkit-text-stroke: 3px #C6022F;
+
+
+
+    }
+    /* FIVTH SECTIoN */
+    .fivth-name{
+    color: #FFF;
+    text-align: center;
+    font-family: Metal Mania;
+    font-size: 92px;
+    font-weight: 400;
+    width: 462px;
+    height: 206px;
+    flex-shrink: 0;
+    text-align: center;
+    -webkit-text-stroke: 3px #C6022F;
+
+    }
+    .fivth-album-section{
+        width: 1400px;
+        height: 720px;
+        margin-top: 0;
+        background-image: linear-gradient(88deg, #000 12.78%, rgba(0, 0, 0, 0.25) 96.92%), url(/imgs-2/bckgrnds/5-sctn.png);
+        padding-top: 40px;
+        padding-left: 116PX;
+        padding-right: 143px;
+    }
+    /* SIXTH SECTIoN */
+    .sixth-album-section {
+        
+            width: 1400px;
+            height: 720px;
+            margin-top: 0;
+            background-image: linear-gradient(265deg, rgba(0, 0, 0, 0.88) 3.11%, rgba(0, 0, 0, 0.58) 95.7%), url(/imgs-2/bckgrnds/6-sctn.png);
+            padding-top: 40px;
+            padding-left: 116PX;
+            padding-right: 112px;   
+    }
+    .sixth-name {
+        width: 462px;
+        height: 206px;
+        flex-shrink: 0;    
+        text-align: center;
+        color: #FFF;
+        text-align: center;
+        font-family: Metal Mania;
+        font-size: 92px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        -webkit-text-stroke: 3px #C6022F;
+    }
+    /* FooTER */
+    /* FOOTER STYLE */
+.footer {
+    width: 1400px;
+    height: 100px;
+    padding-left: 40px;
+    padding-top: 32px;
+    padding-bottom:36px;
+    fill: #FFF;
+    stroke-width: 5px;
+    border: 3px solid var(--main-red);
+}
+.author {
+width: 206px;
+height: 28px;
+flex-shrink: 0;
+color: #C6022F;
+font-family: Metal Mania;
+font-size: 27px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.footer-div {
+    width: 216px;
+    height:36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.telegram {
+    stroke: none;
+    
+}
